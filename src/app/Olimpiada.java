@@ -9,8 +9,8 @@ public class Olimpiada {
     //Inicializando array 
     //ArrayList <tipo> str = new ArrayList<Type>();
     public List <Deportista> participantes = new ArrayList<>(); 
-    public void inscribirDeportista(Deportista deportista){
-        this.participantes.add(deportista);
+    public void inscribirDeportista(Deportista depor){
+        this.participantes.add(depor);
         
     };
 }
